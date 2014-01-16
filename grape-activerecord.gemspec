@@ -10,7 +10,8 @@ Gem::Specification.new do |s|
 and after filter in GrapeAPI to maintain ActiveRecord connection pools."
   s.authors     = ["Asynchrony Solutions"]
   s.email       = 'ionic-mobile@asynchrony.com'
-  s.files       = ["lib/grape/activerecord.rb", "lib/grape/activerecord/rake.rb", "lib/grape/activerecord/tasks.rake"]
+  s.files       = Dir["lib/**/*"] + ["README.md", "LICENSE"]
+
   s.homepage    = 'https://github.com/asynchrony/grape-activerecord'
   s.license     = 'MIT'
 end
